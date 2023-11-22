@@ -1,5 +1,7 @@
-import { FC } from 'react';
+import { NextPage } from 'next';
 
-const Swap: FC = () => <>Swap</>;
+import Swap from '@/views/swap';
 
-export default Swap;
+const SwapPage: NextPage = () => <Swap />;
+
+export default SwapPage;

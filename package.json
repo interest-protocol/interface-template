@@ -1,6 +1,6 @@
 {
-  "name": "interface-v2",
-  "version": "0.1.0",
+  "name": "ipx-fe-template",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
