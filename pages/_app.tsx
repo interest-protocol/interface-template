@@ -1,6 +1,11 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import type { AppProps } from 'next/app';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+import { ThemeManager } from '@/components';
+
+const App = ({ Component, pageProps }: AppProps) => (
+  <ThemeManager>
+    <Component {...pageProps} />
+  </ThemeManager>
+);
+
+export default App;
