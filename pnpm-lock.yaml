@@ -11,6 +11,9 @@ dependencies:
   '@interest-protocol/ui-kit':
     specifier: 0.2.2-alpha
     version: 0.2.2-alpha(@types/react@18.2.38)
+  '@stylin.js/react':
+    specifier: 1.0.5-alpha.0
+    version: 1.0.5-alpha.0(@types/react@18.2.38)(react@18.2.0)
   next:
     specifier: 14.0.3
     version: 14.0.3(react-dom@18.2.0)(react@18.2.0)
@@ -677,6 +680,17 @@ packages:
 
   /@stylin.js/react@1.0.3(@types/react@18.2.38)(react@18.2.0):
     resolution: {integrity: sha512-wb/a8tXLKF6hDCF8GhRhzfsGwLM7bvFh5Tl7K98HC7Zcy9Y2uTb32bzrKqwXA8v7GEM1Uhu+inza6k6x5lN4aQ==}
+    dependencies:
+      '@emotion/react': 11.11.1(@types/react@18.2.38)(react@18.2.0)
+      '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.38)(react@18.2.0)
+      '@stylin.js/core': 1.0.1(@emotion/react@11.11.1)
+    transitivePeerDependencies:
+      - '@types/react'
+      - react
+    dev: false
+
+  /@stylin.js/react@1.0.5-alpha.0(@types/react@18.2.38)(react@18.2.0):
+    resolution: {integrity: sha512-m46JSEkSYPTgAKerN+vlCecs7z/D9kwabWVrg77jxM2l6ng4bfh4H7zpw9cxtVT7K36ZEj5CAwSWDffa+2Y7Qg==}
     dependencies:
       '@emotion/react': 11.11.1(@types/react@18.2.38)(react@18.2.0)
       '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.38)(react@18.2.0)
