@@ -1,6 +1,4 @@
-# IPX FRONTEND TEMPLATE
-
-<img width="50px"height="50px" src="./public/logo.png" />
+# IPX INTERFACE TEMPLATE
 
 ## Contributing
 
