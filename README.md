@@ -8,6 +8,13 @@ Feel invited to contribute, if you are comfortable, follow the instructions in [
 
 ## Quick start
 
+Use the version mentioned on `.nvmrc`
+
+```bash
+  nvm use # or if u don't have installed use just nvm install
+```
+
+
 Install the project dependencies with yarn
 
 ```bash
