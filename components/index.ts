@@ -1,1 +1,2 @@
-export { default as ThemeManager } from './theme-manager';
+export { default as Layout } from './layout';
+export { default as SEO } from './seo';

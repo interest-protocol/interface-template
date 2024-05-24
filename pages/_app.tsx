@@ -1,11 +1,13 @@
+import { Global } from '@emotion/react';
 import type { AppProps } from 'next/app';
 
-import { ThemeManager } from '@/components';
+import { GlobalStyles } from '@/styles';
 
 const App = ({ Component, pageProps }: AppProps) => (
-  <ThemeManager>
+  <>
+    <Global styles={GlobalStyles} />
     <Component {...pageProps} />
-  </ThemeManager>
+  </>
 );
 
 export default App;

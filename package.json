@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
-    "@interest-protocol/ui-kit": "0.2.2-alpha",
-    "@stylin.js/react": "1.0.5-alpha.0",
+    "@stylin.js/elements": "^1.0.2",
     "next": "14.0.3",
     "prettier": "^3.1.0",
     "react": "^18.2.0",
@@ -44,5 +43,6 @@
   },
   "engines": {
     "node": ">=18.17"
-  }
+  },
+  "packageManager": "pnpm@9.1.0+sha512.67f5879916a9293e5cf059c23853d571beaf4f753c707f40cb22bed5fb1578c6aad3b6c4107ccb3ba0b35be003eb621a16471ac836c87beb53f9d54bb4612724"
 }
