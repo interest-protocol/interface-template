@@ -3,5 +3,5 @@ export enum RoutesEnum {
 }
 
 export const Routes: Record<RoutesEnum, string> = {
-  [RoutesEnum.Home]: '/',
+  [RoutesEnum.Home]: '/dapp/swap',
 };
